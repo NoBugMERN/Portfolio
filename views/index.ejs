@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+    <title>Portfolio | Mudit Sharma</title>
+</head>
+<body>
+    <%- include("includes/header.ejs") %>
+    <div class="container">
+        <div class="left">
+            <div class="intro">
+                <h1 class="description">Full Stack<br><span class="web">Developer</span></h1>
+                <p class="quote">Enhancing digital experiences that are smooth, <span class="long">scalable and made to impress</span> </p>
+            </div>
+            <div class="skills">
+                <p class="html">HTML</p>
+                <p class="css">CSS</p>
+                <p class="js">JavaScript</p>
+                <p class="nodejs">Nodejs</p>
+            </div>
+            <div class="mis">
+                <button class="project" onclick="window.location.href = '/project'">Projects<i class="fa-solid fa-diamond-turn-right"></i></button>
+                <button class="con" onclick="window.location.href = '/contact'">Contact</button>
+            </div>
+            <div class="reach">
+                <button class="github" onclick="window.location.href = 'https://github.com/NoBugMERN/DevMuditX/tree/main/projects'"><i class="fa-brands fa-github"></i></button>
+                <button class="insta" onclick="window.location.href = 'https://www.instagram.com/muditt_005/'"><i class="fa-brands fa-instagram"></i></button>
+            </div>
+        </div>
+        <div class="img"><dotlottie-wc
+            src="https://lottie.host/d1cc04ce-09db-44dc-93a5-630247b1ab9a/5MkDl0U9om.lottie"
+            style="width: 500px;height: 500px"
+            speed="1"
+            autoplay
+            loop
+        ></dotlottie-wc></div>
+        
+    </div>
+</body>
+</html>
